@@ -8,6 +8,29 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_supply",
+						"type": "uint256"
+					}
+				],
+				"name": "addCoin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string[]",
 						"name": "_myCoins",
 						"type": "string[]"
@@ -32,6 +55,36 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMyCoin",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "symbol",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "supply",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct BasicFunctions.Coin",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -121,11 +174,11 @@
 	},
 	"sources": {
 		"contracts/BasicFunctions.sol": {
-			"keccak256": "0x1f601a934434c84ee806b260f01333cf5227ba7c29a466708ce8f4fb5a751424",
+			"keccak256": "0x63772a36e043558e97b1725b20c6c5fdb4f428e09c7510b1bf8a27bbc36c89bb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://052fa86c06f1f04863f0284f06a7b52e6c96c7be82e164a083086275f08f37d4",
-				"dweb:/ipfs/QmNPN1mpZ7zEiG7bFafCK8fS2e4KeR98WXUf8UPrqqTyYU"
+				"bzz-raw://b163638a58099c2e6bb3415f9fd9da93a90a8afdec80d0bb3c99da6afbe58518",
+				"dweb:/ipfs/QmS2ezCFnuJQbHcKrfY6m84bkrtXXWKtkmhPQ2ujij9unz"
 			]
 		}
 	},
