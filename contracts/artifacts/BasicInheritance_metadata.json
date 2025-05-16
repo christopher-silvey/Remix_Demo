@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_startingSupply",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_maxSupply",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BasicInheritance.sol": "BasicInheritance"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BasicInheritance.sol": {
+			"keccak256": "0x374aa5317fff9d771e6b2aa357ed6f16a402cd3bc5f21b560212c70cf3be3e50",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16d8fe22a9a20e0a0d418c246dd70ebe5c70a1539bad983ce7aeb0ac74f0d664",
+				"dweb:/ipfs/QmamVuWc4U1AijRwZB1xAt33z6RKiNMLTh1eBhpdeuidd5"
+			]
+		}
+	},
+	"version": 1
+}
