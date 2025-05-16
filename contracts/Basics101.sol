@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >= 0.7.0 < 0.9.0;
 
-contract Basics101Test {
+contract Basics101 {
+    // external can only be called externally
     uint public myBalance = 50; // positive numbers only | can be called publicly
     int private transactionAmount = -2; // can contain negative numbers | can only be called by the contract
     string internal coinName = "Epic Coin"; // only be called by the contract and/or by other contracts within it

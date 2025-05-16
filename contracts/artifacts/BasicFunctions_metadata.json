@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string[]",
+						"name": "_myCoins",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string",
+						"name": "_find",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_startFrom",
+						"type": "uint256"
+					}
+				],
+				"name": "findCoinIndex",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMyCoinName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_guess",
+						"type": "uint256"
+					}
+				],
+				"name": "guessNumber",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_multiplier",
+						"type": "uint256"
+					}
+				],
+				"name": "multiplyBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BasicFunctions.sol": "BasicFunctions"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BasicFunctions.sol": {
+			"keccak256": "0x5045024bc4bbd9d0014f01c6ce71fa9484c9340e56e0c9105c588fd3d3783229",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5041ea5a80432b7b65b73a857d1f6b9b20b0e624ccda98a64c256564bdf75f42",
+				"dweb:/ipfs/QmR8zm6Vp9NfnJXYM57UDzvXuedy52UykH9y6nsLSKPwzW"
+			]
+		}
+	},
+	"version": 1
+}
