@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "accountNameMap",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "blockTime",
 				"outputs": [
@@ -13,6 +32,19 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "defaultTrustLevel",
+				"outputs": [
+					{
+						"internalType": "enum Basics101Test.coinRanking",
+						"name": "",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -45,6 +77,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "timeNowOneDay",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -58,6 +103,35 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasTraded",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -92,11 +166,11 @@
 	},
 	"sources": {
 		"contracts/Basics101.sol": {
-			"keccak256": "0xc039c8c2e6a8f244c023060e1df855f524bdc532bf77c3dd01b683db2b2dee93",
+			"keccak256": "0x11c050e1cea915c8fcce32e28116a3e1636639135ad9ce5a3fce745b0a63aaa0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e9fffd2d60bebd18f6070d43227a757ee776f9b5bdd273e91617ab5750c6425e",
-				"dweb:/ipfs/QmbCjwGeQRc1StzsyXA2TtfcKvkiJtHT54XE1YALpM7Cok"
+				"bzz-raw://0abc6599da462a7a64feba5b313082ac0e377e3e1b8ec29e6e3c10fc42979646",
+				"dweb:/ipfs/QmRKXRGS7MHTAp3mbBZ3kzwJNDYZbPofU2usqwBvYh34TC"
 			]
 		}
 	},
