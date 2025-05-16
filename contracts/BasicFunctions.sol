@@ -5,7 +5,25 @@ contract BasicFunctions {
     // View - works with other state variables outside of the function | external works with variables outside the function also
     // Pure - works with variables inside of the function only
     // Retuns - what type
-    // Memory - Strings pretty much always uses memory
+    // Memory - when and how to use it 
+    // •   External/public: you can use calldata (cheaper) or memory, and if you omit the location for an external function it defaults to calldata.
+    // .   function foo(string calldata s) external { … }
+    //
+    // •   Internal/private: you must explicitly choose memory.
+    // .   function bar(string memory s) internal { … }
+    //
+    // •   If you declare a dynamic variable type inside the function, you need to say memory
+    // .   function baz() public pure {
+    //         string memory temp = "hello";
+    //         …
+    //     }
+    //
+    // •   State variables live in storage by default. You’ll only use storage explicitly when you want a local reference to a state variable’s array/struct:
+    // .   string[] public names;    // names is in storage
+    //     function tweak() external {
+    //         string[] storage ref = names;  // ref ↔ names in storage
+    //         …
+    //     }
 
     string coinName = "Epic Coin";
     uint public myBalance = 1000;
