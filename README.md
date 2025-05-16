@@ -2,6 +2,14 @@
 
 A concise reference for common Solidity concepts, from basic types to advanced features.
 
+**Basics101**: https://sepolia.etherscan.io/address/0x705a31a616571bc982ec82dca84542cb98b19ab6#readContract
+
+**BasicFunctions**: https://sepolia.etherscan.io/address/0x7ca2c920f284998c65afb717bb9c89de68b5efd9#readContract
+
+**BasicInheritance MyEpicCoin**: https://sepolia.etherscan.io/address/0xd2cb32d4a49c1629d2628b544e3fb9ed4514fe94#readContract
+
+**BasicInheritance MyEpicToken**: https://sepolia.etherscan.io/address/0x438561245375269508ee91a2dc4064a61a12afcc#readContract
+
 ---
 
 ## 1. Elementary Types
